@@ -3,6 +3,7 @@ const noblox = require('noblox.js')
 module.exports.run = async (bot, message, args) => {
 const config = require('../config.json')
 const cookie = config.cookie
+const ID = config.group
 process.on('unhandledRejection', (reason, promise) => {
   message.channel.send('Whitelist failed: Incorrect username')
   undefined
@@ -15,7 +16,7 @@ try {
 fetch(`https://api.roblox.com/users/get-by-username?username=${args}`)
     .then(res => res.json())
     .then(json => {
-        noblox.exile(6486607, json.Id)
+        noblox.exile(ID, json.Id)
         message.channel.send('Blacklisted success')
     });
   }
