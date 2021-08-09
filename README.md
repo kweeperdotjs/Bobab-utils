@@ -52,14 +52,11 @@ Make sure to add to path while installing
 ![image](https://user-images.githubusercontent.com/72858106/128722493-ba750e36-2eb1-4e26-9ed7-dce421f8aad5.png)
 
 
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
 
 <!-- ROADMAP -->
 ## Roadmap
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/Creeper-pixel/server-side-wl/issues) for a list of proposed features (and known issues).
 
 
 
