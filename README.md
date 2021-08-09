@@ -101,7 +101,7 @@ Project Link: [https://github.com/Creeper-pixel/server-side-wl](https://github.c
 [issues-shield]: https://img.shields.io/github/issues/Creeper-pixel/Bobab-utils.svg?style=for-the-badge
 [issues-url]: https://github.com/Creeper-pixel/Bobab-utils/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[license-url]: https://github.com/Creeper-pixel/Bobab-utils/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/Discord-!Kweeper%238053-red.svg?style=for-the-badge
+[linkedin-url]: https://discord.gg/ZTjXfXUXct
 [product-screenshot]: images/screenshot.png
