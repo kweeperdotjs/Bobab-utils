@@ -48,7 +48,9 @@ Make sure to add to path while installing
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+![image](https://user-images.githubusercontent.com/72858106/128722368-840aef24-2516-4ac4-8744-eb1ce508c4f0.png)
+![image](https://user-images.githubusercontent.com/72858106/128722493-ba750e36-2eb1-4e26-9ed7-dce421f8aad5.png)
+
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
