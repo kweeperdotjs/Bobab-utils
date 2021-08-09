@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const noblox = require('noblox.js')
 const config = require('../config.json')
 const cookie = config.cookie
-const ID = config.group
+const gp = config.group
 module.exports.run = async (bot, message, args) => {
 
 process.on('unhandledRejection', (reason, promise) => {
@@ -17,7 +17,7 @@ try {
 fetch(`https://api.roblox.com/users/get-by-username?username=${args}`)
     .then(res => res.json())
     .then(json => {
-        noblox.handleJoinRequest(ID, json.Id, true)
+        noblox.handleJoinRequest(gp, json.Id, true)
         message.channel.send('Succesfuly whitelisted')
     });
   }
