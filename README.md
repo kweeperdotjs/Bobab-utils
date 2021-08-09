@@ -92,7 +92,7 @@ Project Link: [https://github.com/Creeper-pixel/server-side-wl](https://github.c
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/Creeper-pixel/Bobab-utils.svg?style=for-the-badge
 [contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/Creeper-pixel/Bobab-utils.svg?style=for-the-badge
 [forks-url]: https://github.com/Creeper-pixel/Bobab-utils/network/members
