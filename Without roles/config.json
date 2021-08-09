@@ -1,5 +1,6 @@
 {
 	"prefix":"=",
 	"token":"token",
-	"cookie":"cookie"
+	"cookie":"cookie",
+	"group":"groupid"
 }
