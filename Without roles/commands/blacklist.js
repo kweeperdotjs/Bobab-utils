@@ -12,6 +12,7 @@ process.on('unhandledRejection', (reason, promise) => {
 await noblox.setCookie(cookie)
 
 const fetch = require('node-fetch')
+if (message.member.hasPermission("MANAGE_SERVER")) {
 try {
 fetch(`https://api.roblox.com/users/get-by-username?username=${args}`)
     .then(res => res.json())
@@ -23,6 +24,8 @@ fetch(`https://api.roblox.com/users/get-by-username?username=${args}`)
 catch(e) {
     console.log(e)
 }
+} else {
+  return
 }
 module.exports.help = {
   name:"blacklist"
