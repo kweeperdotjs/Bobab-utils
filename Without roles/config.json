@@ -2,5 +2,6 @@
 	"prefix":"=",
 	"token":"token",
 	"cookie":"cookie",
-	"group":"groupid"
+	"group":"groupid",
+	"wlroleid":"whitelist role id here"
 }
