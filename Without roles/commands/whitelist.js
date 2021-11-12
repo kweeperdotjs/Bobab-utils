@@ -7,7 +7,7 @@ module.exports.run = async (bot, message, args) => {
 
 process.on('unhandledRejection', (reason, promise) => {
   message.channel.send('Whitelist failed: Incorrect username')
-  undefined
+  return
 })
 
 await noblox.setCookie(cookie)
