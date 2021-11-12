@@ -24,7 +24,9 @@ fetch(`https://api.roblox.com/users/get-by-username?username=${args}`)
         message.channel.send('Succesfuly whitelisted')
         const role = config.wlroleid
         const gibber = message.guild.roles.cache.get(r => r.id == role)
+        const blgibber = message.guild.roles.cache.get(r => r.id == config.blroleid)
         mention.addRoles(gibber)
+        mention.removeRoles(blgibber)
     });
   }
 catch(e) {
