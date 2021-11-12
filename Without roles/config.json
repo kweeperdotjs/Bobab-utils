@@ -3,5 +3,6 @@
 	"token":"token",
 	"cookie":"cookie",
 	"group":"groupid",
-	"wlroleid":"whitelist role id here"
+	"wlroleid":"whitelist role id here",
+	"blroleid":"blroleidhere"
 }
