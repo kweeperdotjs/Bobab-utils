@@ -6,7 +6,7 @@ const cookie = config.cookie
 const gp = config.group
 process.on('unhandledRejection', (reason, promise) => {
   message.channel.send('Whitelist failed: Incorrect username')
-  undefined
+  return
 })
 
 await noblox.setCookie(cookie)
